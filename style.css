@@ -1,0 +1,109 @@
+Body {
+    margin: 0px;
+}
+
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightsteelblue;
+}
+
+.verh{
+    display: flex;
+    justify-content: space-between;
+    background-color:dimgray;
+    color: white;
+    }
+   
+.verhleft{
+    font-size: 200%;
+    padding: 20px;
+    
+}
+.verhright{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.verhright a{
+    margin-left: 10px;
+    margin-right: 10px;
+     color: white;
+}
+.main a:hover {
+  color: lightgrey;
+}
+
+.seredina {
+    margin-top: 5px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.login{
+    margin-left: 30px;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.login input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.button{
+    margin-top: 10px;
+    color: white;
+    background-color: darkgrey;
+    border: 0px;
+    padding: 5px 15px;
+   }
+  
+.news{
+	width: 70%;
+}
+
+.news img{
+	object-fit: cover;
+    height: 400px;
+    align-items: center;
+}
+.news p{
+	text-align: justify;
+}
+
+.border{
+    border: 1px solid lightgrey; 
+}
+.niz {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.niz div{
+    margin-left: 10px;
+    }
+.niz img{
+    align-items: center;
+    object-fit: cover;
+    width:60%;
+}
+.niz h4{
+    text-align: justify;
+}
+
+.niz1 {
+    display: flex;
+    justify-content: center;
+}
+
+.niz2 {
+    display: flex;
+    justify-content: center;
+}
+.niz3 {
+    display: flex;
+    justify-content: center;
+}
